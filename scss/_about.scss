@@ -17,9 +17,13 @@
       align-items: center;
       justify-content: flex-end;
   
-      ul.li {
-        margin-bottom: 2rem;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
       }
+    
+      li { display: inline-block; }
     }
   
     &__bio {
